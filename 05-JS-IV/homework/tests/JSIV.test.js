@@ -4,7 +4,7 @@ const {
   agregarPropiedad,
   invocarMetodo,
   multiplicarNumeroDesconocidoPorCinco,
-  eliminarPropiedadlol,
+  eliminarPropiedad,
   nuevoUsuario,
   tieneEmail,
   tienePropiedad,
