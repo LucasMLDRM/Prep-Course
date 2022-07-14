@@ -60,15 +60,15 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  // let palabraLol = ""
-  // for (let i = 0; i < palabras.length; i++) {
-  //    if(i = 0) {
-  //     palabraLol = palabraLol + palabras[i];
-  //    } else {s
-  //     palabraLol = palabraLol + " " + palabras[i];
-  //    }
-  // }
-  // return palabraLol;
+  let palabraLol = ""
+  for (let i = 0; i < palabras.length; i++) {
+     if(i = 0) {
+      palabraLol = palabraLol + palabras[i];
+     } else {s
+      palabraLol = palabraLol + " " + palabras[i];
+     }
+  }
+  return palabraLol;
 }
 
 
@@ -129,17 +129,17 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  // let numeracos = arguments[0];
-  // if (arguments.length === 0) {
-  //   return 0;
-  // } else if( arguments.length === 1) {
-  //   return 1;
-  // } else {
-  //   for (let i = 0; i < arguments.length; i++) {
-  //     numeracos = numeracos * arguments[i];
-  //   }
-  //   return numeracos;
-  // }
+  let numeracos = arguments[0];
+  if (arguments.length === 0) {
+    return 0;
+  } else if( arguments.length === 1) {
+    return 1;
+  } else {
+    for (let i = 0; i < arguments.length; i++) {
+      numeracos = numeracos * arguments[i];
+    }
+    return numeracos;
+  }
 }
 
 
